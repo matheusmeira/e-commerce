@@ -8,18 +8,20 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script src="assets/js/jquery-3.1.1.min.js"></script>
-	<script src="assets/js/responsiveslides.min.js"></script>
-	<script src="assets/js/jquery.flexslider-min.js"></script>
+	<script src="assets/js/jquery.cycle.all.js"></script>
 
 </head>
 <body>
 
-	<script>
-	  	$(window).load(function() {
-		  	$('.flexslider').flexslider({
-			    animation: "slide"
-		  	});
-		});
+	<script type="text/javascript">
+	    $(function(){
+	        $('#imagens').cycle({
+	            fx: 'scrollLeft',
+	            next: '#prox',
+	            prev: '#ant',
+	            pager: '#pager'
+	        })
+	    })
 	</script>
 
 	<nav id="navBar">
@@ -149,98 +151,6 @@
 			  	</div>
 			</div>
 			
-		</div>
-
-		<div class="row">
-			<div id="category">
-				<h2 style="margin: 0">Navegue pelas categorias</h2>
-			</div>
-
-			
-			<div class="row flexslider" style="margin-top: 10px">
-				<ul class="slides">
-					<li>
-						<div class="col-xs-6 col-md-3">
-						    <div class="thumbnail">
-						      	<img src="assets/images/perfurante.jpg" alt="item 1">
-						      	<div class="caption" style="background-color: #EEEEEE">
-						        	<h3>Geral</h3>
-						      	</div>
-						    </div>
-					  	</div>
-
-					  	<div class="col-xs-6 col-md-3">
-						    <div class="thumbnail">
-						      	<img src="assets/images/perfurante.jpg" alt="item 1">
-						      	<div class="caption" style="background-color: #EEEEEE">
-						        	<h3>Geral</h3>
-						      	</div>
-						    </div>
-					  	</div>
-
-					  	<div class="col-xs-6 col-md-3">
-						    <div class="thumbnail">
-						      	<img src="assets/images/perfurante.jpg" alt="item 1">
-						      	<div class="caption" style="background-color: #EEEEEE">
-						        	<h3>Geral</h3>
-						      	</div>
-						    </div>
-					  	</div>
-
-					  	<div class="col-xs-6 col-md-3">
-						    <div class="thumbnail">
-						      	<img src="assets/images/perfurante.jpg" alt="item 1">
-						      	<div class="caption" style="background-color: #EEEEEE">
-						        	<h3>Geral</h3>
-						      	</div>
-						    </div>
-					  	</div>
-					</li>
-
-					<li>
-						<div class="col-xs-6 col-md-3">
-						    <div class="thumbnail">
-						      	<img src="assets/images/pocket.jpg" alt="item 1">
-						      	<div class="caption" style="background-color: #EEEEEE">
-						        	<h3>Geral</h3>
-						      	</div>
-						    </div>
-					  	</div>
-
-					  	<div class="col-xs-6 col-md-3">
-						    <div class="thumbnail">
-						      	<img src="assets/images/pocket.jpg" alt="item 1">
-						      	<div class="caption" style="background-color: #EEEEEE">
-						        	<h3>Geral</h3>
-						      	</div>
-						    </div>
-					  	</div>
-
-					  	<div class="col-xs-6 col-md-3">
-						    <div class="thumbnail">
-						      	<img src="assets/images/pocket.jpg" alt="item 1">
-						      	<div class="caption" style="background-color: #EEEEEE">
-						        	<h3>Geral</h3>
-						      	</div>
-						    </div>
-					  	</div>
-
-					  	<div class="col-xs-6 col-md-3">
-						    <div class="thumbnail">
-						      	<img src="assets/images/pocket.jpg" alt="item 1">
-						      	<div class="caption" style="background-color: #EEEEEE">
-						        	<h3>Geral</h3>
-						      	</div>
-						    </div>
-					  	</div>
-					</li>
-				</ul>
-			  	
-			</div>
-			<div style="text-align: center">
-				<img src="assets/images/icons/left.png">
-				<img src="assets/images/icons/right.png">
-			</div>
 		</div>
 	</div>
 
