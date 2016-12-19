@@ -51,44 +51,52 @@ footer {
 	border-radius: 5px;
 }
 
-#mais-vendidos {
-	color: #1987C6;
-	text-transform: uppercase;
-	background-color: #EEEEEE;
-	padding: 20px;
-	border-radius: 5px;
+.grayBorder {
+  border: 1px solid #EEEEEE;
 }
 
-
-
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
+#titleCategory {
   margin: 0;
-  }
+  padding: 20px;
+  color: #FF3425;
+}
 
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
+#reference {
+  background-color: #EEEEEE;
+  border-top: 1px solid #EEEEEE;
+  padding: 10px 0 10px 20px;
+}
 
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
+#listOfCategory {
+  list-style-type: none;
+  padding-left: 0;
+}
 
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
+#listOfCategory li a:link {
+  text-decoration: none;
+}
+
+#listOfCategory li a {
+  color: black;
+}
+
+#guideOfCategory {
+  color: #FF3425;
+  margin: 0;
+  padding: 10px 0 0 10px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.itemCategory {
+  width: 90%; 
+  border-bottom: 1px solid #EEEEEE; 
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+#filter {
+  font-size: 10px;
+  background-color: #EEEEEE;
+  padding: 10px 5px;
+}
