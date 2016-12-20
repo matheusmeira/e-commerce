@@ -98,5 +98,59 @@ footer {
 #filter {
   font-size: 10px;
   background-color: #EEEEEE;
-  padding: 10px 5px;
+  padding: 20px 5px;
+  margin-left: 5px;
+}
+
+#filter div span {
+  margin-right: 5px;
+}
+
+.border-card-product {
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.border-card-product:hover {
+  border-color: #1B89C8;
+}
+
+.description-product {
+  padding-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description-product h4 {
+  height: 64px;
+  max-width: 215px;
+}
+
+.application-item {
+  padding-left: 10px;
+  height: 40px;
+  max-width: 215px;
+  font-size: 10px;
+}
+
+.application-item p {
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.caption h3 {
+  margin-bottom: 0;
+  color: #EE3729;
+}
+
+.color-btn {
+  background-color: #1B89C8;
+  color: white;
+}
+
+.color-btn:hover {
+  background-color: #EE3729;
+  color: white;
 }
